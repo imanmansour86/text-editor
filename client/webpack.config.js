@@ -3,6 +3,7 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 const WorkboxPlugin = require("workbox-webpack-plugin");
 const { InjectManifest } = require("workbox-webpack-plugin");
+const { GenerateSW } = require("workbox-webpack-plugin");
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
 // TODO: Add CSS loaders and babel to webpack.
@@ -25,10 +26,10 @@ module.exports = () => {
         title: "Webpack Plugin",
       }),
       new WorkboxPlugin.GenerateSW(),
-      new InjectManifest({
-        swSrc: "./src/sw.js",
-        swDest: "service-worker.js",
-      }),
+      // new InjectManifest({
+      //   swSrc: "./src/sw.js",
+      //   swDest: "service-worker.js",
+      // }),
       new WebpackPwaManifest({
         name: "Jate",
         short_name: "jate",
@@ -39,7 +40,7 @@ module.exports = () => {
         publicPath: "/",
         icons: [
           {
-            src: path.resolve("assets/images/logo.png"),
+            src: path.resolve("./src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
