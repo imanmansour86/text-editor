@@ -8,6 +8,16 @@
 
 ## Table of Contents
 
+- [Text Editor](#text-editor)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Built With](#built-with)
+  - [Author](#author)
+  - [License](#license)
+
 ## Description
 
 A Progressive Web Application (PWA) text editor that runs in the browser. Features several data persistence techniques and ability to function offline. Built using IndexedDB, service worker with workbox and WebpackPwaManifest plugin
@@ -31,6 +41,8 @@ A Progressive Web Application (PWA) text editor that runs in the browser. Featur
 ## Usage
 
 This app is bundled with webpck and allows users to create notes or code snippets with or without an internet connection. It uses service worker with workbox that caches static assets and uses babel as well. It uses IndexedDB to create an object store and includes both GET and PUT methods. It automatically saves content inside the text editor when the DOM window is unfocused.
+
+## Features
 
 ## Built With
 
