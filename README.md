@@ -11,9 +11,9 @@
 - [Text Editor](#text-editor)
   - [Table of Contents](#table-of-contents)
   - [Deployed app](#deployed-app)
+  - [Demo](#demo)
   - [Description](#description)
   - [Installation](#installation)
-  - [Demo](#demo)
   - [Usage](#usage)
   - [Features](#features)
   - [Built With](#built-with)
@@ -23,6 +23,10 @@
 ## Deployed app
 
 [Deployed](https://infinite-beyond-80277.herokuapp.com/)
+
+## Demo
+
+![demo](/images/J.A.T.E.gif)
 
 ## Description
 
@@ -43,10 +47,6 @@ A Progressive Web Application (PWA) text editor that runs in the browser. Featur
   ```md
   $ npm run start
   ```
-
-## Demo
-
-![demo](/images/J.A.T.E.gif)
 
 ## Usage
 
