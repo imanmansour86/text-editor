@@ -48,6 +48,10 @@ export const getDb = async () => {
   // Get confirmation of the request.
   const result = await request;
   console.log("result.value", result);
-  return result[result.length - 1].localData;
+  if (results && results.length > 0) {
+    return result[result.length - 1].localData;
+  }
+
+  return undefined;
 };
 initdb();
