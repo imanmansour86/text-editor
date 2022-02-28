@@ -68,7 +68,9 @@ IndexedDB storage
 
 ## Built With
 
-[webpack-pwa-manifest](https://www.npmjs.com/package/webpack-pwa-manifest)
+[Workbox](https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin)
+
+[Webpack-pwa-manifest](https://www.npmjs.com/package/webpack-pwa-manifest)
 
 [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
