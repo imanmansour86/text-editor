@@ -48,7 +48,7 @@ export const getDb = async () => {
   // Get confirmation of the request.
   const result = await request;
   console.log("result.value", result);
-  if (results && results.length > 0) {
+  if (result && result.length > 0) {
     return result[result.length - 1].localData;
   }
 
