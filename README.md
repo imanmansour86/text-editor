@@ -10,6 +10,7 @@
 
 - [Text Editor](#text-editor)
   - [Table of Contents](#table-of-contents)
+  - [Deployed app](#deployed-app)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -17,6 +18,10 @@
   - [Built With](#built-with)
   - [Author](#author)
   - [License](#license)
+
+## Deployed app
+
+[Deployed](https://infinite-beyond-80277.herokuapp.com/)
 
 ## Description
 
@@ -43,6 +48,16 @@ A Progressive Web Application (PWA) text editor that runs in the browser. Featur
 This app is bundled with webpck and allows users to create notes or code snippets with or without an internet connection. It uses service worker with workbox that caches static assets and uses babel as well. It uses IndexedDB to create an object store and includes both GET and PUT methods. It automatically saves content inside the text editor when the DOM window is unfocused.
 
 ## Features
+
+Manifest.json file
+
+![manifest](/images/manifest.png)
+
+Registered service worker
+![service](/images/service.png)
+
+IndexedDB storage
+![db](/images/db.png)
 
 ## Built With
 
