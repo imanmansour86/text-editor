@@ -23,6 +23,11 @@ module.exports = () => {
         template: "./index.html",
         title: "Webpack Plugin",
       }),
+      new WorkboxPlugin.GenerateSW(),
+      // new InjectManifest({
+      //   swSrc: "./src-sw.js",
+      //   swDest: "service-worker.js",
+      // }),
       new WebpackPwaManifest({
         name: "Jate",
         short_name: "jate",
@@ -38,10 +43,6 @@ module.exports = () => {
             destination: path.join("assets", "icons"),
           },
         ],
-      }),
-      new InjectManifest({
-        swSrc: "./src-sw.js",
-        swDest: "src-sw.js",
       }),
     ],
 
