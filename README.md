@@ -26,7 +26,7 @@
 
 ## Demo
 
-![demo](/images/J.A.T.E.gif)
+![demo](/images/jategif.gif)
 
 ## Description
 
